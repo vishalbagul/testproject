@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+h2{
+	color: #996600; 
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h3{
+	font-size: 16px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #996600;
+	font-weight:normal;
+	line-height:10px;
+}
+
+
+.border {
+	line-height:25px;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+}
+
+
+#table_head{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#996600;
+	text-align:left;
+	line-height:20px;
+	font-weight:bold;
+	background-image:url(images/td_bg.png);
+	padding:0px 0 0 10px;
+	border-left-color:#CCCCCC;
+	border-left-style:solid;
+	border-left-width:thin;
+	border-right-color:#CCCCCC;
+	border-right-style:solid;
+	border-right-width:thin;
+	border-top-color:#CCCCCC;
+	border-top-style:solid;
+	border-top-width:thin;
+	border-bottom-color:#CCCCCC;
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+}
+
+#table_data{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:left;
+	color:#996600;
+	line-height:20px;
+	border-bottom-color:#CCCCCC;
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+	padding:0px 0 0 15px;
+}
+
+.style1{
+	 width:600px; 
+	 float:left; 
+	 margin:23px; 
+	 border:#CCCCCC thin solid;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 14px;
+}
+
+#show_table{
+	background-color:#FFFFFF;
+	color:#333333;
+}
+
+#show_table tr.d0 td {
+	background-color: #FFF5E0;
+}
+#show_table tr.d1 td {
+	background-color: #FFFDF9;
+}
+
+#show_table a{
+	text-decoration:none;
+	color:#333333;
+}
